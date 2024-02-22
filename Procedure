@@ -1,0 +1,45 @@
+public class Procedure {
+    private String procedureName;
+    private String procedureDate;
+    private String practitionerName;
+    private double charges;
+
+    // No-arg constructor
+    public Procedure() {
+    }
+
+    // Parametrized constructor for initializing procedure name and date
+    public Procedure(String procedureName, String procedureDate) {
+        this.procedureName = procedureName;
+        this.procedureDate = procedureDate;
+    }
+
+    // Parametrized constructor for initializing all attributes
+    public Procedure(String procedureName, String procedureDate, String practitionerName, double charges) {
+        this.procedureName = procedureName;
+        this.procedureDate = procedureDate;
+        this.practitionerName = practitionerName;
+        this.charges = charges;
+    }
+
+    // Accessors and mutators for all attributes
+
+    public String getProcedureName() {
+        return procedureName;
+    }
+
+    public void setProcedureName(String procedureName) {
+        this.procedureName = procedureName;
+    }
+
+    public String getProcedureDate() {
+        return procedureDate;
+    }
+
+    public void setProcedureDate(String procedureDate) {
+        this.procedureDate = procedureDate;
+    }
+
+    public String getPractitionerName() {
+        return practitionerName;
+    }
